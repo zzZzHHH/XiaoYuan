@@ -1,0 +1,559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8A56009B1F452FB700D6E838 /* PVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A56009A1F452FB700D6E838 /* PVC.m */; };
+		8AFF77B21F15B527002CFFA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AFF77B11F15B527002CFFA1 /* Assets.xcassets */; };
+		8AFF77B51F15B527002CFFA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AFF77B31F15B527002CFFA1 /* LaunchScreen.storyboard */; };
+		8AFF77C01F15B528002CFFA1 /* XiaoYuanMapUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AFF77BF1F15B528002CFFA1 /* XiaoYuanMapUITests.m */; };
+		8AFF77D11F15B7F3002CFFA1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AFF77CE1F15B7F3002CFFA1 /* AppDelegate.m */; };
+		8AFF77D31F15B7F3002CFFA1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AFF77D01F15B7F3002CFFA1 /* main.m */; };
+		8AFF77DD1F15B957002CFFA1 /* MainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AFF77DC1F15B957002CFFA1 /* MainVC.m */; };
+		8E1137D0B14248E685F6DF75 /* libPods-XiaoYuanMap.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EFB78F9CE5DAF7EA74E78CEB /* libPods-XiaoYuanMap.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8AFF77BC1F15B528002CFFA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8AFF779A1F15B527002CFFA1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8AFF77A11F15B527002CFFA1;
+			remoteInfo = XiaoYuanMap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2F29C2E942E9EC47271C6D1C /* Pods-XiaoYuanMap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XiaoYuanMap.release.xcconfig"; path = "Pods/Target Support Files/Pods-XiaoYuanMap/Pods-XiaoYuanMap.release.xcconfig"; sourceTree = "<group>"; };
+		8A5600991F452FB700D6E838 /* PVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVC.h; sourceTree = "<group>"; };
+		8A56009A1F452FB700D6E838 /* PVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PVC.m; sourceTree = "<group>"; };
+		8AFF77A21F15B527002CFFA1 /* XiaoYuanMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XiaoYuanMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AFF77A61F15B527002CFFA1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8AFF77B11F15B527002CFFA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8AFF77B41F15B527002CFFA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8AFF77BB1F15B528002CFFA1 /* XiaoYuanMapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XiaoYuanMapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AFF77BF1F15B528002CFFA1 /* XiaoYuanMapUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XiaoYuanMapUITests.m; sourceTree = "<group>"; };
+		8AFF77C11F15B528002CFFA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AFF77CD1F15B7F3002CFFA1 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8AFF77CE1F15B7F3002CFFA1 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8AFF77CF1F15B7F3002CFFA1 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AFF77D01F15B7F3002CFFA1 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8AFF77DB1F15B957002CFFA1 /* MainVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainVC.h; sourceTree = "<group>"; };
+		8AFF77DC1F15B957002CFFA1 /* MainVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainVC.m; sourceTree = "<group>"; };
+		8AFF77DE1F15BCB2002CFFA1 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		B26FD2BF18496694FEA78E4C /* Pods-XiaoYuanMap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XiaoYuanMap.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XiaoYuanMap/Pods-XiaoYuanMap.debug.xcconfig"; sourceTree = "<group>"; };
+		EFB78F9CE5DAF7EA74E78CEB /* libPods-XiaoYuanMap.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XiaoYuanMap.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8AFF779F1F15B527002CFFA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E1137D0B14248E685F6DF75 /* libPods-XiaoYuanMap.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AFF77B81F15B528002CFFA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5940448F4E169CE89BE87BE2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B26FD2BF18496694FEA78E4C /* Pods-XiaoYuanMap.debug.xcconfig */,
+				2F29C2E942E9EC47271C6D1C /* Pods-XiaoYuanMap.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8AFF77991F15B527002CFFA1 = {
+			isa = PBXGroup;
+			children = (
+				8AFF77A41F15B527002CFFA1 /* XiaoYuanMap */,
+				8AFF77BE1F15B528002CFFA1 /* XiaoYuanMapUITests */,
+				8AFF77A31F15B527002CFFA1 /* Products */,
+				5940448F4E169CE89BE87BE2 /* Pods */,
+				AD24A5A2534442CFDE89260A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8AFF77A31F15B527002CFFA1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8AFF77A21F15B527002CFFA1 /* XiaoYuanMap.app */,
+				8AFF77BB1F15B528002CFFA1 /* XiaoYuanMapUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8AFF77A41F15B527002CFFA1 /* XiaoYuanMap */ = {
+			isa = PBXGroup;
+			children = (
+				8AFF77CA1F15B7F3002CFFA1 /* Classes */,
+				8AFF77B11F15B527002CFFA1 /* Assets.xcassets */,
+				8AFF77B31F15B527002CFFA1 /* LaunchScreen.storyboard */,
+				8AFF77A51F15B527002CFFA1 /* Supporting Files */,
+			);
+			path = XiaoYuanMap;
+			sourceTree = "<group>";
+		};
+		8AFF77A51F15B527002CFFA1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8AFF77A61F15B527002CFFA1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8AFF77BE1F15B528002CFFA1 /* XiaoYuanMapUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8AFF77BF1F15B528002CFFA1 /* XiaoYuanMapUITests.m */,
+				8AFF77C11F15B528002CFFA1 /* Info.plist */,
+			);
+			path = XiaoYuanMapUITests;
+			sourceTree = "<group>";
+		};
+		8AFF77CA1F15B7F3002CFFA1 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8AFF77D41F15B8CC002CFFA1 /* MainModule */,
+				8AFF77CC1F15B7F3002CFFA1 /* Other */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		8AFF77CC1F15B7F3002CFFA1 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				8AFF77CD1F15B7F3002CFFA1 /* AppDelegate.h */,
+				8AFF77CE1F15B7F3002CFFA1 /* AppDelegate.m */,
+				8A5600991F452FB700D6E838 /* PVC.h */,
+				8A56009A1F452FB700D6E838 /* PVC.m */,
+				8AFF77CF1F15B7F3002CFFA1 /* Info.plist */,
+				8AFF77D01F15B7F3002CFFA1 /* main.m */,
+				8AFF77DE1F15BCB2002CFFA1 /* PrefixHeader.pch */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		8AFF77D41F15B8CC002CFFA1 /* MainModule */ = {
+			isa = PBXGroup;
+			children = (
+				8AFF77D51F15B8CC002CFFA1 /* Controller */,
+				8AFF77D61F15B8CC002CFFA1 /* Model */,
+				8AFF77D71F15B8CC002CFFA1 /* View */,
+			);
+			path = MainModule;
+			sourceTree = "<group>";
+		};
+		8AFF77D51F15B8CC002CFFA1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8AFF77DB1F15B957002CFFA1 /* MainVC.h */,
+				8AFF77DC1F15B957002CFFA1 /* MainVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8AFF77D61F15B8CC002CFFA1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8AFF77D71F15B8CC002CFFA1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AD24A5A2534442CFDE89260A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EFB78F9CE5DAF7EA74E78CEB /* libPods-XiaoYuanMap.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8AFF77A11F15B527002CFFA1 /* XiaoYuanMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AFF77C41F15B528002CFFA1 /* Build configuration list for PBXNativeTarget "XiaoYuanMap" */;
+			buildPhases = (
+				0D3C62CC34AAF345486CC97A /* [CP] Check Pods Manifest.lock */,
+				8AFF779E1F15B527002CFFA1 /* Sources */,
+				8AFF779F1F15B527002CFFA1 /* Frameworks */,
+				8AFF77A01F15B527002CFFA1 /* Resources */,
+				6526F400F7103A0D064AEC9F /* [CP] Embed Pods Frameworks */,
+				A9B1E2E6A4AD3FD6D4066D8D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XiaoYuanMap;
+			productName = XiaoYuanMap;
+			productReference = 8AFF77A21F15B527002CFFA1 /* XiaoYuanMap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8AFF77BA1F15B528002CFFA1 /* XiaoYuanMapUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AFF77C71F15B528002CFFA1 /* Build configuration list for PBXNativeTarget "XiaoYuanMapUITests" */;
+			buildPhases = (
+				8AFF77B71F15B528002CFFA1 /* Sources */,
+				8AFF77B81F15B528002CFFA1 /* Frameworks */,
+				8AFF77B91F15B528002CFFA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8AFF77BD1F15B528002CFFA1 /* PBXTargetDependency */,
+			);
+			name = XiaoYuanMapUITests;
+			productName = XiaoYuanMapUITests;
+			productReference = 8AFF77BB1F15B528002CFFA1 /* XiaoYuanMapUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8AFF779A1F15B527002CFFA1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "周立贺";
+				TargetAttributes = {
+					8AFF77A11F15B527002CFFA1 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = PDG9AKFC43;
+						ProvisioningStyle = Automatic;
+					};
+					8AFF77BA1F15B528002CFFA1 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8AFF77A11F15B527002CFFA1;
+					};
+				};
+			};
+			buildConfigurationList = 8AFF779D1F15B527002CFFA1 /* Build configuration list for PBXProject "XiaoYuanMap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8AFF77991F15B527002CFFA1;
+			productRefGroup = 8AFF77A31F15B527002CFFA1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8AFF77A11F15B527002CFFA1 /* XiaoYuanMap */,
+				8AFF77BA1F15B528002CFFA1 /* XiaoYuanMapUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8AFF77A01F15B527002CFFA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AFF77B51F15B527002CFFA1 /* LaunchScreen.storyboard in Resources */,
+				8AFF77B21F15B527002CFFA1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AFF77B91F15B528002CFFA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D3C62CC34AAF345486CC97A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6526F400F7103A0D064AEC9F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XiaoYuanMap/Pods-XiaoYuanMap-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A9B1E2E6A4AD3FD6D4066D8D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XiaoYuanMap/Pods-XiaoYuanMap-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8AFF779E1F15B527002CFFA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AFF77DD1F15B957002CFFA1 /* MainVC.m in Sources */,
+				8A56009B1F452FB700D6E838 /* PVC.m in Sources */,
+				8AFF77D11F15B7F3002CFFA1 /* AppDelegate.m in Sources */,
+				8AFF77D31F15B7F3002CFFA1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AFF77B71F15B528002CFFA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AFF77C01F15B528002CFFA1 /* XiaoYuanMapUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8AFF77BD1F15B528002CFFA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8AFF77A11F15B527002CFFA1 /* XiaoYuanMap */;
+			targetProxy = 8AFF77BC1F15B528002CFFA1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8AFF77B31F15B527002CFFA1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8AFF77B41F15B527002CFFA1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8AFF77C21F15B528002CFFA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8AFF77C31F15B528002CFFA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8AFF77C51F15B528002CFFA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B26FD2BF18496694FEA78E4C /* Pods-XiaoYuanMap.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = PDG9AKFC43;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = XiaoYuanMap/Classes/Other/PrefixHeader.pch;
+				INFOPLIST_FILE = XiaoYuanMap/Classes/Other/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gesoft.XiaoYuanMap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8AFF77C61F15B528002CFFA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F29C2E942E9EC47271C6D1C /* Pods-XiaoYuanMap.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = PDG9AKFC43;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = XiaoYuanMap/Classes/Other/PrefixHeader.pch;
+				INFOPLIST_FILE = XiaoYuanMap/Classes/Other/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gesoft.XiaoYuanMap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8AFF77C81F15B528002CFFA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = XiaoYuanMapUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gesoft.XiaoYuanMapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = XiaoYuanMap;
+			};
+			name = Debug;
+		};
+		8AFF77C91F15B528002CFFA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = XiaoYuanMapUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gesoft.XiaoYuanMapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = XiaoYuanMap;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8AFF779D1F15B527002CFFA1 /* Build configuration list for PBXProject "XiaoYuanMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AFF77C21F15B528002CFFA1 /* Debug */,
+				8AFF77C31F15B528002CFFA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8AFF77C41F15B528002CFFA1 /* Build configuration list for PBXNativeTarget "XiaoYuanMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AFF77C51F15B528002CFFA1 /* Debug */,
+				8AFF77C61F15B528002CFFA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8AFF77C71F15B528002CFFA1 /* Build configuration list for PBXNativeTarget "XiaoYuanMapUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AFF77C81F15B528002CFFA1 /* Debug */,
+				8AFF77C91F15B528002CFFA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8AFF779A1F15B527002CFFA1 /* Project object */;
+}
